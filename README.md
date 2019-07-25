@@ -12,5 +12,7 @@ The availability of large databases of genomic data allowed new strategies for t
 2) Meta-analysis realization: meta.R
 
 3) Additional analysis
-  a) Heat map: heatmap.R
-  b) Gene sets analysis using FAIME algorithm: seq2pathway.R
+
+      a) Heat map: heatmap.R
+
+      b) Gene sets analysis using FAIME algorithm: seq2pathway.R
