@@ -7,11 +7,11 @@ The availability of large databases of genomic data allowed new strategies for t
 
 # Steps
 
-1. Preprocessing: Microarray_preprocessing.R
+1. Preprocessing: [Microarray_preprocessing.R](https://github.com/Bidossessih/Meta-analysis/blob/master/Microarray_preprocessing.R)
 
-1. Meta-analysis realization: meta.R
+1. Meta-analysis realization: [meta.R](https://github.com/Bidossessih/Meta-analysis/blob/master/meta.R)
 1. Additional analysis
 
-      1. Heat map: heatmap.R
+      1. Heat map: [heatmap.R](https://github.com/Bidossessih/Meta-analysis/blob/master/heatMap.R)
 
-      1. Gene sets analysis using FAIME algorithm: seq2pathway.R
+      1. Gene sets analysis using FAIME algorithm: [seq2pathway.R](https://github.com/Bidossessih/Meta-analysis/blob/master/heatMap.R)
