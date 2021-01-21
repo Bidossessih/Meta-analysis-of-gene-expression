@@ -23,6 +23,8 @@ res <- dat_gene2path_RNA$gene2pathway_result.2 # Alternatively altered pathways 
 
 Condition <- rep(c("Data1","Data2"),c(x1, x2))
 
+where x1 and x2 are sizes of Data1 and Data2 respectively.
+
 # Example of Status
 # pheno == data frame generated in Microarray_preprocessing.R
 ref <- pheno$Status
@@ -47,6 +49,6 @@ ha = HeatmapAnnotation(df = dfannot, show_legend = c(TRUE, TRUE),
 
 
 
-Heatmap(res, name = "log2(expr)", show_row_names = T, show_column_names = F, cluster_rows = T, 
-                   top_annotation = ha, cluster_columns = F, clustering_distance_columns = "euclidean")
+Heatmap(res, name = "log2(expr)", show_row_names = TRUE, show_column_names = FALSE, cluster_rows = TRUE, 
+                   top_annotation = ha, cluster_columns = FALSE, clustering_distance_columns = "euclidean")
   
